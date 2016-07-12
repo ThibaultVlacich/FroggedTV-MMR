@@ -1,5 +1,5 @@
 # FroggedTV-MMR
-You're a Dota 2 streamer? Your viewers always asks you about your MMR? This plugin is gor you!
+You're a Dota 2 streamer? Your viewers always asks you about your MMR? This plugin is for you!
 
 This quick HTML/JS/PHP plugin allows you to automatically displays your current MMR fetched from your Yasp.co profile.
 
