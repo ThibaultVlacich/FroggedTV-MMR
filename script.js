@@ -25,11 +25,11 @@
   var urlForFetchingMMR = 'http://froggedtv.thibault.vlacich.fr/mmr/mmr.php?yID='+yaspProfileID;
 
   /**
-   * Uopdate the MMR displayed on the page
+   * Update the MMR displayed on the page
    */
   var updateMMR = function() {
     $.getJSON(urlForFetchingMMR)
-     .done(function(data){
+     .done(function(data) {
        $('div#mmr span').text(data.mmr);
      })
      .fail(function() {
