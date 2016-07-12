@@ -22,7 +22,7 @@
   // ID of the Yasp profile to retrieve the MMR from
   var yaspProfileID     = parseInt($.urlParam('yID'));
   // URL of the script getting the MMR
-  var urlForFetchingMMR = 'http://froggedtv.thibault.vlacich.fr/mmr/mmr.php?yID='+yaspProfileID;
+  var urlForFetchingMMR = 'mmr.php?yID='+yaspProfileID;
 
   /**
    * Update the MMR displayed on the page
